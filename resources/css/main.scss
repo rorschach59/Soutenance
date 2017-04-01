@@ -1,0 +1,101 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav {
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 2%;
+  a {
+    color: white;
+    font-size: 1.5em;
+  }
+  .navbar-nav {
+    a {
+      padding-top: 4%;
+      padding-bottom: 4%;
+    }
+    a:hover {
+      border-radius: 5px;
+    }
+  }
+}
+
+.navbar-brand {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  img {
+  display: inline;
+  }
+}
+
+.carousel-control {
+  width: 3%;
+}
+
+#carousel {
+  margin-top : -8%;
+  z-index: -1000;
+}
+
+.text-slider {
+  position: absolute;
+  top : 40%;
+  left : 35%;
+  color: white;
+  background-color: rgba(42, 36, 36, 0.3);
+  border : 1px solid transparent;
+  border-radius: 15px;
+  padding: 0 1%;
+  h2 {
+    margin-top: 1%;
+  }
+}
+
+.event {
+  margin-top: 3%;
+  padding-bottom: 5%;
+  .description-event {
+    font-size: 1.3em;
+    padding: 1% 2%;
+    h4 {
+      font-size: 1.8em;
+    }
+    background-color: rgba(219, 211, 211, 1);
+    border-bottom: 4px solid rgba(164, 200, 215, 1);
+  }
+  .adress-event {
+    background-color: rgba(45, 47, 51, 1);
+    color: white;
+    padding: 2% 0
+  }
+}
+
+.presentation {
+  hr {
+    width: 20%;
+    border: 1px solid black;
+  }
+  p {
+    padding: 1%;
+  }
+  .no-padding {
+    padding: 0;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.social-network {
+  padding-top : 15%;
+  padding-bottom : 5%;
+  background-color: rgba(45, 47, 51, 1);
+  border-top : 4px solid rgba(164, 200, 215, 1);
+  a {
+      color: white;
+  }
+  .fa {
+    padding: 1%;
+  }
+}

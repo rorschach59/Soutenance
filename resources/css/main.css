@@ -1,0 +1,110 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+nav {
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 2%;
+}
+
+nav a {
+  color: white;
+  font-size: 1.5em;
+}
+
+nav .navbar-nav a {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+nav .navbar-nav a:hover {
+  border-radius: 5px;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  display: inline;
+}
+
+.carousel-control {
+  width: 3%;
+}
+
+#carousel {
+  margin-top: -8%;
+  z-index: -1000;
+}
+
+.text-slider {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  color: white;
+  background-color: rgba(42, 36, 36, 0.3);
+  border: 1px solid transparent;
+  border-radius: 15px;
+  padding: 0 1%;
+}
+
+.text-slider h2 {
+  margin-top: 1%;
+}
+
+.event {
+  margin-top: 3%;
+  padding-bottom: 5%;
+}
+
+.event .description-event {
+  font-size: 1.3em;
+  padding: 1% 2%;
+  background-color: #dbd3d3;
+  border-bottom: 4px solid #a4c8d7;
+}
+
+.event .description-event h4 {
+  font-size: 1.8em;
+}
+
+.event .adress-event {
+  background-color: #2d2f33;
+  color: white;
+  padding: 2% 0;
+}
+
+.presentation hr {
+  width: 20%;
+  border: 1px solid black;
+}
+
+.presentation p {
+  padding: 1%;
+}
+
+.presentation .no-padding {
+  padding: 0;
+}
+
+.presentation .no-padding img {
+  width: 100%;
+}
+
+.social-network {
+  padding-top: 15%;
+  padding-bottom: 5%;
+  background-color: #2d2f33;
+  border-top: 4px solid #a4c8d7;
+}
+
+.social-network a {
+  color: white;
+}
+
+.social-network .fa {
+  padding: 1%;
+}
