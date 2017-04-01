@@ -1,3 +1,7 @@
+/******************/
+/*     GENERAL    */
+/******************/
+
 body {
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -20,6 +24,10 @@ nav {
   }
 }
 
+.navbar-default {
+    padding-top: 1%;
+}
+
 .navbar-brand {
   font-size: 2em;
   text-transform: uppercase;
@@ -28,6 +36,22 @@ nav {
   display: inline;
   }
 }
+
+.social-network {
+  padding-top : 5%;
+  padding-bottom : 5%;
+  background-color: rgba(45, 47, 51, 1);
+  border-top : 4px solid rgba(164, 200, 215, 1);
+  a {
+      color: white;
+  }
+  .fa {
+    padding: 1%;
+  }
+}
+/******************/
+/*   FRONTPAGE    */
+/******************/
 
 .carousel-control {
   width: 3%;
@@ -87,15 +111,84 @@ nav {
   }
 }
 
-.social-network {
-  padding-top : 15%;
-  padding-bottom : 5%;
-  background-color: rgba(45, 47, 51, 1);
-  border-top : 4px solid rgba(164, 200, 215, 1);
-  a {
-      color: white;
+
+
+/******************/
+/*     EVENTS     */
+/******************/
+
+.events {
+  margin-top: 3%;
+  padding-bottom: 5%;
+  .description-event {
+    font-size: 1.3em;
+    padding: 1% 2%;
+    h4 {
+      font-size: 1.8em;
+    }
+    background-color: rgba(219, 211, 211, 1);
+    border-bottom: 4px solid rgba(164, 200, 215, 1);
   }
-  .fa {
+  .adress-event {
+    background-color: rgba(45, 47, 51, 1);
+    color: white;
+    padding: 2% 0
+  }
+}
+
+/******************/
+/*      METEO     */
+/******************/
+
+.meteo {
+  h2 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1.4em;
+  }
+}
+
+/******************/
+/*     ROAD       */
+/******************/
+
+.road {
+  h2 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1.4em;
+  }
+  img {
     padding: 1%;
+  }
+  .gif {
+    width: 50%;
+  }
+}
+
+/******************/
+/*     SIGNUP     */
+/******************/
+
+.signup {
+  fieldset {
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.5);
+    box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.5);
+  }
+}
+
+/******************/
+/*     SIGNIN     */
+/******************/
+
+.signin {
+  fieldset {
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.5);
+    box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.5);
+    margin-bottom: 5%;
   }
 }

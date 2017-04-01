@@ -1,3 +1,6 @@
+/******************/
+/*     GENERAL    */
+/******************/
 body {
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -21,6 +24,10 @@ nav .navbar-nav a:hover {
   border-radius: 5px;
 }
 
+.navbar-default {
+  padding-top: 1%;
+}
+
 .navbar-brand {
   font-size: 2em;
   text-transform: uppercase;
@@ -31,6 +38,24 @@ nav .navbar-nav a:hover {
   display: inline;
 }
 
+.social-network {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #2d2f33;
+  border-top: 4px solid #a4c8d7;
+}
+
+.social-network a {
+  color: white;
+}
+
+.social-network .fa {
+  padding: 1%;
+}
+
+/******************/
+/*   FRONTPAGE    */
+/******************/
 .carousel-control {
   width: 3%;
 }
@@ -94,17 +119,76 @@ nav .navbar-nav a:hover {
   width: 100%;
 }
 
-.social-network {
-  padding-top: 15%;
+/******************/
+/*     EVENTS     */
+/******************/
+.events {
+  margin-top: 3%;
   padding-bottom: 5%;
+}
+
+.events .description-event {
+  font-size: 1.3em;
+  padding: 1% 2%;
+  background-color: #dbd3d3;
+  border-bottom: 4px solid #a4c8d7;
+}
+
+.events .description-event h4 {
+  font-size: 1.8em;
+}
+
+.events .adress-event {
   background-color: #2d2f33;
-  border-top: 4px solid #a4c8d7;
-}
-
-.social-network a {
   color: white;
+  padding: 2% 0;
 }
 
-.social-network .fa {
+/******************/
+/*      METEO     */
+/******************/
+.meteo h2 {
+  font-size: 2.5em;
+}
+
+.meteo p {
+  font-size: 1.4em;
+}
+
+/******************/
+/*     ROAD       */
+/******************/
+.road h2 {
+  font-size: 2.5em;
+}
+
+.road p {
+  font-size: 1.4em;
+}
+
+.road img {
   padding: 1%;
+}
+
+.road .gif {
+  width: 50%;
+}
+
+/******************/
+/*     SIGNUP     */
+/******************/
+.signup fieldset {
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+/******************/
+/*     SIGNIN     */
+/******************/
+.signin fieldset {
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 5%;
 }
